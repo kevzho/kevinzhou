@@ -1,11 +1,1 @@
-remote_theme: kevzho/jekyll-theme-kevinlab@main
-
-plugins:
-  - jekyll-remote-theme
-
-title: Kevin's Data Science Lab
-author: Kevin
-description: High school data scientist exploring ML, AI, statistics
-
-url: "https://kevzho.github.io"
-baseurl: ""
+theme: minima
