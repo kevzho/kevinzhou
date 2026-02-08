@@ -1,1 +1,10 @@
-theme: minima
+title: Kevin's Data Science Lab
+author: Kevin
+description: High school data scientist exploring ML, AI, statistics
+
+url: "https://kevzho.github.io"
+baseurl: ""
+
+sass:
+  sass_dir: assets/css   # points to your SCSS folder
+  style: expanded
