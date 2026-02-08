@@ -6,7 +6,6 @@ title: Home
 # Kevin
 
 Hi, I'm Kevin from Pennington, NJ.  
-Innovating through AI, Data Science, Machine Learning & Statistics.
 
 I'm a high school junior passionate about turning raw data into real decisions and building models that solve meaningful problems.
 
@@ -54,4 +53,4 @@ Or find me on:
 - [GitHub](https://github.com/kevzho)
 - [LinkedIn](https://www.linkedin.com/in/kevin-zhou-423827308/)
 
-© {{ 'now' | date: "%Y" }} Kevin Zhou. Built with curiosity, code, and a lot of late-night debugging.
+© {{ 'now' | date: "%Y" }} Kevin Zhou. 
