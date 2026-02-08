@@ -8,3 +8,5 @@ baseurl: ""
 sass:
   sass_dir: assets/css   # points to your SCSS folder
   style: expanded
+
+theme: null

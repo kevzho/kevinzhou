@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Homev2
 ---
 
 <header class="hero" style="position: relative; height: 60vh; min-height: 400px; display: flex; align-items: center; justify-content: center; overflow: hidden; background: var(--bg-color);">
