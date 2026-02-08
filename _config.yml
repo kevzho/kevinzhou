@@ -4,12 +4,8 @@ plugins:
   - jekyll-remote-theme
 
 title: Kevin's Data Science Lab
-description: High school data scientist exploring ML, AI, statistics, and patterns
 author: Kevin
+description: High school data scientist exploring ML, AI, statistics
+
 url: "https://kevzho.github.io"
 baseurl: ""
-
-tagline: "Exploring patterns, predicting possibilities"
-
-sass:
-  style: compressed
