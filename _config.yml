@@ -8,7 +8,7 @@ baseurl: ""
 permalink: pretty  
 
 sass:
-  sass_dir: assets/css   # points to your SCSS folder
+  sass_dir: _sass   # points to your SCSS folder
   style: expanded
   sourcemap: true
 

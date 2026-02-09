@@ -1,9 +1,30 @@
----
-layout: default
-title: Projects
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Kevin's Data Science Lab</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+  <div class="nav-container">
+    <a href="/" class="nav-logo">Kevin Zhou</a>
 
-<div class="projects-hero">
+    <div class="nav-links">
+      <a href="/" class="nav-item ">Home</a>
+      <a href="/projects/" class="nav-item active">Projects</a>
+      <a href="/insights/" class="nav-item ">Insights Lab</a>
+      <a href="/about/" class="nav-item ">About</a>
+      <a href="/journal/" class="nav-item ">Journal</a>
+    </div>
+  </div>
+</nav>
+
+  
+
+  <main style="max-width: 1200px; margin: 0 auto; padding: 2rem;">
+    <div class="projects-hero">
   <h1>Projects</h1>
   <p class="lead">Collection of my data science and ML projects — from structured fellowship work to quick prototypes.</p>
 </div>
@@ -11,7 +32,7 @@ title: Projects
 <div class="project-featured">
   <div class="project-card featured">
     <div class="project-image">
-      <img src="{{ '/assets/images/veritas-cover.jpg' | relative_url }}" alt="Veritas AI Fellowship">
+      <img src="/assets/images/veritas-cover.jpg" alt="Veritas AI Fellowship" />
     </div>
     <div class="project-content">
       <span class="project-tag">Featured</span>
@@ -38,7 +59,7 @@ title: Projects
   <div class="project-grid">
     <div class="project-card">
       <div class="project-image">
-        <img src="{{ '/assets/images/real-estate.jpg' | relative_url }}" alt="Real Estate Analysis">
+        <img src="/assets/images/real-estate.jpg" alt="Real Estate Analysis" />
       </div>
       <div class="project-content">
         <h3>Real Estate Regression</h3>
@@ -48,7 +69,7 @@ title: Projects
 
     <div class="project-card">
       <div class="project-image">
-        <img src="{{ '/assets/images/titanic.jpg' | relative_url }}" alt="Titanic Dataset">
+        <img src="/assets/images/titanic.jpg" alt="Titanic Dataset" />
       </div>
       <div class="project-content">
         <h3>Titanic ML Challenge</h3>
@@ -58,7 +79,7 @@ title: Projects
 
     <div class="project-card">
       <div class="project-image">
-        <img src="{{ '/assets/images/image-classification.jpg' | relative_url }}" alt="Image Classification">
+        <img src="/assets/images/image-classification.jpg" alt="Image Classification" />
       </div>
       <div class="project-content">
         <h3>Image Classification</h3>
@@ -68,7 +89,7 @@ title: Projects
 
     <div class="project-card">
       <div class="project-image">
-        <img src="{{ '/assets/images/linear-regression.jpg' | relative_url }}" alt="Linear Regression">
+        <img src="/assets/images/linear-regression.jpg" alt="Linear Regression" />
       </div>
       <div class="project-content">
         <h3>Trip Fare Prediction</h3>
@@ -118,3 +139,11 @@ title: Projects
 <div class="projects-footer">
   <p>More projects added regularly! Check back soon.</p>
 </div>
+
+  </main>
+
+  <footer style="background: var(--secondary); padding: 2rem; text-align: center; color: var(--text-color); margin-top: 4rem;">
+    &copy; 2026 Kevin Zhou • "You don't have any enemies. No one has any."
+  </footer>
+</body>
+</html>

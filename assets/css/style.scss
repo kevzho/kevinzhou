@@ -1,6 +1,7 @@
 ---
 ---
 // Dark theme variables
+
 :root {
   --bg-color:    #0f172a;        // main dark background
   --text-color:  #e2e8f0;        // main text
@@ -295,3 +296,5 @@ pre.highlight .s  { color: #10b981; }  // string
     text-align: center;
   }
 }
+
+@import "projects";
